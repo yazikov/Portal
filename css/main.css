@@ -7,7 +7,7 @@ html, body {
 }
 
 .layout {
-    background: linear-gradient(to right, black, black 210px, white 211px, white) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: linear-gradient(to right, black, black 160px, white 161px, white) repeat scroll 0 0 rgba(0, 0, 0, 0);
     position:relative;
     /*margin:auto 0 -100px;*/
     min-height:100%;
@@ -17,7 +17,7 @@ html, body {
 .layout_left {
     color: white;
     position:relative;
-    width:210px;
+    width:160px;
     min-height:100%;
     /*height:auto !important;*/
     float:left;
@@ -56,11 +56,11 @@ html, body {
     border: 1px solid black;
     border-radius: 3px;
     margin-bottom: 20px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
 .logo {
-    width: 210px;
+    width: 160px;
     text-align: center;
     color: white;
     font-size: 36pt;
@@ -86,13 +86,13 @@ html, body {
 }
 
 .menu li {
-    width: 210px;
+    width: 160px;
     cursor: pointer;
-    padding: 5px;
+    padding: 10px;
 }
 
 .menu li:hover {
-    background: #4b4a45;
+    background: #212121;
 }
 
 .menu a{
@@ -115,6 +115,12 @@ html, body {
     margin-top: 5px;
     width: 100%;
     text-align: right;
+}
+
+.button_search {
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
 }
 
 .form-control-pad {
