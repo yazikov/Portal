@@ -126,3 +126,7 @@ html, body {
 .form-control-pad {
     margin-bottom: 5px;
 }
+
+.modal-title {
+    text-align: left;
+}
