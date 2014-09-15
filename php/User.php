@@ -17,8 +17,9 @@ class User {
     private $birthday;
     private $about;
     private $image;
+    private $role;
 
-    function __construct($about, $birthday, $email, $fio, $id, $image, $login, $password, $sex, $work)
+    function __construct($id, $about, $birthday, $email, $fio,  $image, $login, $password, $sex, $work, $role)
     {
         $this->about = $about;
         $this->birthday = $birthday;
@@ -30,6 +31,7 @@ class User {
         $this->password = $password;
         $this->sex = $sex;
         $this->work = $work;
+        $this->role = $role;
     }
 
 

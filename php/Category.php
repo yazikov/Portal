@@ -10,7 +10,7 @@ class Category {
     private $id;
     private $name;
 
-    function __construct($name, $id)
+    function __construct($id, $name)
     {
         $this->name = $name;
         $this->id = $id;
