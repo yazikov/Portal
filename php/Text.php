@@ -8,6 +8,7 @@
 
 class Text {
     private $id;
+    private $title;
     private $short_text;
     private $text;
     private $user;
@@ -23,6 +24,14 @@ class Text {
         $this->id = $id;
         $this->category = $category;
         $this->user = $user;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getId()
+    {
+        return $this->id;
     }
 
     /**
@@ -135,6 +144,22 @@ class Text {
     public function getText()
     {
         return $this->text;
+    }
+
+    /**
+     * @param mixed $title
+     */
+    public function setTitle($title)
+    {
+        $this->title = $title;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getTitle()
+    {
+        return $this->title;
     }
 
 

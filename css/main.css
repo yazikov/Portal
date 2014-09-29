@@ -6,6 +6,10 @@ html, body {
     width: 100%;
 }
 
+h3 {
+    margin-top: 0 !important;
+}
+
 .layout {
     background: linear-gradient(to right, black, black 160px, white 161px, white) repeat scroll 0 0 rgba(0, 0, 0, 0);
     position:relative;
